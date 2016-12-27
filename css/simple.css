@@ -1,0 +1,381 @@
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.leftMargin {
+	margin-left: 5em;
+}
+
+.buttons {
+	width: 32px;
+	height: 32px;
+	opacity: 0.5;
+}
+
+.chartDrawArea {}
+
+.chartDrawArea.lineSlider {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+.mainContent {}
+
+#loadingOverlay {
+	z-index: 100;
+}
+
+.top {
+	z-index: 100;
+	position: absolute;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 100;
+}
+
+.loadingAnnotation {
+	width: 200px;
+	height: 75px;
+	line-height: 75px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -100px;
+	border-radius: 5px;
+	text-align: center;
+	color: #FAA43A;
+	font-family: "Droid Sans", Arial, sans-serif;
+	font-size: 19px;
+	opacity: 0.95;
+	background-color: #4D4D4D;
+	font-weight: 400;
+	z-index: 111;
+	/* 1px higher than the overlay layer */
+	-webkit-box-shadow: 0px 0px 9px 3px rgba(77, 77, 77, 0.2);
+	-moz-box-shadow: 0px 0px 9px 3px rgba(77, 77, 77, 0.2);
+	box-shadow: 0px 0px 9px 3px rgba(77, 77, 77, 0.2);
+}
+
+.contentboxhalfL {
+	float: left;
+	width: 48%;
+	background-color: #FFFFFF;
+	border: 2px solid #E4E4E4;
+	border-radius: 5px;
+	z-index: -1;
+	-webkit-box-shadow: 5px 5px 20px -8px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 5px 5px 20px -8px rgba(0, 0, 0, 0.25);
+	box-shadow: 5px 5px 20px -8px rgba(0, 0, 0, 0.25);
+}
+
+.contentboxhalfR {
+	float: right;
+	width: 48%;
+	background-color: #FFFFFF;
+	border: 2px solid #E4E4E4;
+	border-radius: 5px;
+	z-index: -1;
+	-webkit-box-shadow: 5px 5px 20px -8px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 5px 5px 20px -8px rgba(0, 0, 0, 0.25);
+	box-shadow: 5px 5px 20px -8px rgba(0, 0, 0, 0.25);
+}
+
+.contentboxhalfR.topMargin {
+	margin-top: 20px;
+}
+
+.contentboxhalfL.topMargin {
+	margin-top: 20px;
+}
+
+.contentbox {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	min-width: 750px;
+	border: 2px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	z-index: -2;
+}
+
+.contentbox.visible {
+	display: block;
+	background-color: #FFFFFF;
+	border: 2px solid #E4E4E4;
+	-webkit-box-shadow: 5px 5px 20px -8px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 5px 5px 20px -8px rgba(0, 0, 0, 0.25);
+	box-shadow: 5px 5px 20px -8px rgba(0, 0, 0, 0.25);
+}
+
+.contentbox.invisible {
+	height: 500px;
+}
+
+.contentbox.invisible.donate {
+	height: 700px;
+}
+
+.fixed {
+	position: fixed;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+.header {
+	display: block;
+	background-color: #4D4D4D;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 42px;
+	min-width: 750px;
+	z-index: 10;
+}
+
+.ghostHeader {
+	height: 42px;
+	margin: 0px;
+	border: 0px;
+	padding: 0;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.footer {
+	height: 25px;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footerbox {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	min-width: 750px;
+}
+
+.tabContent {
+	display: block;
+}
+
+.tabContent p {
+	font-size: 17;
+	font-family: "Droid Sans", Arial, sans-serif;
+	text-align: center;
+}
+
+.tabContent h1 {
+	font-size: 26;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	margin-top: 0.8em;
+	margin-bottom: 0.2em;
+}
+
+.justChart {
+	margin: 0px;
+	border: 0px;
+}
+
+.settingsForm {
+	margin: 1em 2em 1em 2em;
+	white-space: nowrap;
+	width: auto;
+	font-size: 17px;
+	font-family: "Droid Sans", Arial, sans-serif;
+	height: 1.25em;
+}
+
+.settingsForm p {
+	display: inline-block;
+	margin: 0px 14px 0px 0px;
+}
+
+.radioLine {
+	display: inline;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.radioLine.left {
+	float: left;
+	width: 50%;
+	border-right: 2px solid #E4E4E4;
+	margin: 0 0;
+}
+
+.radioLine.right {
+	float: right;
+	width: 48%;
+	margin: 0 0;
+}
+
+.wrapper {
+	display: table;
+	margin: auto;
+	width: 50%;
+}
+
+.settingsForm label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 15px;
+}
+
+.settingsForm input[type=radio] {
+	display: none;
+}
+
+.settingsForm label:before {
+	content: "";
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 7px;
+	background: white;
+	border: 1px solid gray;
+	box-shadow: inset 0px 0px 0px 2px white;
+	-webkit-box-shadow: inset 0px 0px 0px 2px white;
+	-moz-box-shadow: inset 0px 0px 0px 2px white;
+	-o-box-shadow: inset 0px 0px 0px 2px white;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	white-space: nowrap;
+}
+
+.settingsForm input[type=radio]:checked+label:before {
+	background: #FAA43A;
+}
+
+.settingsForm input[type=radio]:disabled+label:before {
+	background: #e0e0eb;
+}
+
+#block_Introduction p {
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+	color: black;
+}
+
+#block_Ad p {
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+	color: black;
+}
+
+#block_AdImage {
+	border: 10px solid transparent;
+	float: left;
+	border: 2px solid #ffffff;
+	margin-right: 2em;
+	border-radius: 6px;
+}
+
+#otherProjects p {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+#donateButton {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+}
+
+#block_Donation p {
+	font-size: 16px;
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+#block_Donation a {
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+body {
+	background-color: #F5F5F5;
+	margin: 0;
+}
+
+ul#menutabs {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-family: "Droid Sans", Arial, sans-serif;
+	font-size: 18px;
+	color: #F5F5F5;
+	text-align: center;
+	padding-top: 5px;
+	z-index: 1;
+}
+
+ul#menutabs li {
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 10px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+ul#menutabs li#Donate {
+	font-size: 13px;
+}
+
+ul#menutabs li:hover {
+	color: #FAA43A;
+}
+
+ul#menutabs li.active {
+	color: #FAA43A;
+}
+
+.hide {
+	display: none;
+}

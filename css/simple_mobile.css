@@ -1,0 +1,56 @@
+.loadingAnnotation {
+	font-size: 22px;
+}
+
+.header {
+	height: auto;
+}
+
+.ghostHeader {
+	height: 0em;
+}
+
+.fixed {
+	position: relative;
+}
+
+.footer {
+	font-size: 14px;
+}
+
+.tabContent p {
+	font-size: 16px;
+}
+
+#donation p {
+	font-size: 16px;
+}
+
+#donation a {
+	font-size: 20px;
+}
+
+.hide {
+	display: none;
+}
+
+body {
+	background-color: #F5F5F5;
+	margin: 0;
+}
+
+ul#menutabs {
+	font-size: 25px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+ul#menutabs li {
+	margin-bottom: 7px;
+	padding: 5px auto;
+	margin: 5px;
+}
+
+ul#menutabs li#Donate {
+	font-size: 20px;
+}
